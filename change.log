@@ -1,1 +1,3 @@
 Updated the directory structure to work with new test workflow.
+Added test workflow.
+Updated primary workflow to work with new dir structure and removed pyinstaller github action.
