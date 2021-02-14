@@ -22,7 +22,7 @@ jobs:
           python -m pip install pyinstaller
           python -m pip install -r requirements.txt
       - name: Build EXE
-        run: pyinstaller --onefile search_environment_variables.py
+        run: pyinstaller --onefile --icon=Shea.ico search_environment_variables.py
       - name: Move Executable
         run: move dist/search_environment_variables.exe SHEA.exe
       - name: Create Release
